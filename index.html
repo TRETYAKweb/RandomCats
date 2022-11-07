@@ -12,25 +12,25 @@
 
 <body>
 
-  <section class="start">
+  <section class="start" id="start-section">
 
-    <div class="start__btn">
+    <div class="start__btn" id="start-btn">
       <span>start</span>
     </div>
 
   </section>
 
-  <section class="random-cats">
+  <section class="random-cats" id="random-cats-section">
 
     <div class="container">
 
       <div class="random-cats__top">
 
         <div class="coins">
-          <span>0</span>
+          <span id="coin">0</span>
         </div>
 
-        <div class="random-cats__close-btn">
+        <div class="random-cats__close-btn" id="closeBtn">
           <svg width="34" height="34">
             <g filter="url(#filter0_di_407_209)">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -68,13 +68,13 @@
 
         <div class="random-cats__inner">
 
-          <h2 class="random-cats__title">Cat shop</h2>
+          <h2 class="random-cats__title">Cats API</h2>
 
           <div class="random-cats__image">
-            <img src="images/cat.png" alt="cat-image" width="392" height="392">
+            <img id="img" src="images/cat.png" alt="cat-image" width="392" height="392">
           </div>
 
-          <span class="random-cats__btn">
+          <span class="random-cats__btn" id="random-cats-btn">
             <span>Random Cat</span>
           </span>
 
@@ -87,7 +87,7 @@
 
   </section>
 
-
+  <script src="js/index.js"></script>
 
 </body>
 

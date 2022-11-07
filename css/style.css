@@ -33,7 +33,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 .start__btn {
@@ -48,6 +47,12 @@ body {
   border: 15px solid #E49869;
   border-radius: 50px;
   cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.start__btn:hover {
+  background-color: #ffddc8;
+
 }
 
 .start__btn span {
@@ -74,12 +79,14 @@ body {
   left: 0;
 }
 
+
 .random-cats {
   background-image: url('../images/random-cats-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100%;
+  display: none;
 }
 
 .random-cats__top {
@@ -166,6 +173,7 @@ body {
 .random-cats__title {
   color: #FF7B27;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 .random-cats__image {
